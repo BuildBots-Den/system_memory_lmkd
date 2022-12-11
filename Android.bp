@@ -58,7 +58,6 @@ cc_binary {
     ],
     local_include_dirs: ["include"],
     cflags: [
-        "-O3",
         "-Wall",
         "-Werror",
         "-Wextra",
@@ -103,6 +102,5 @@ cc_library_static {
         "-g",
         "-Wall",
         "-Werror",
-        "-O3",
     ]
 }
